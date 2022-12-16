@@ -19,7 +19,7 @@ div.page-wrapper {
 	margin: 160px auto 0 auto;
 	padding: 0;
 	background: url(bg_container.gif) repeat-y top center;
-	width: 760px;  /* False value for IE4-5.x/Win */	
+	width: 760px;  	
 	text-align: left;
 }
 
@@ -30,10 +30,10 @@ div.page-wrapper {
 	margin: 0;
 	padding: 5px;
 	z-index: 1;
-	width: 760px;  /* False value for IE4-5.x/Win */	
+	width: 760px;  
 		voice-family: "\"}\""; 
 		voice-family:inherit;
-		width: 748px;	 /* Actual value for conformant browsers */
+		width: 748px;	 
 }
 
 header {
@@ -54,7 +54,7 @@ div.summary {
 	clear: both;
 	margin: 0 0 0 5px;
 	padding: 10px 0 0 0 ;
-	width: 169px;  /* False value for IE4-5.x/Win */
+	width: 169px; 
 	height: 169px;
 }
 
@@ -220,7 +220,7 @@ footer {
 	background: #69c;
 	margin: 20px -22px 0 -22px;
 	padding: 10px 20px;
-	width: 450px;  /* False value for IE4-5.x/Win */
+	width: 450px;  
 			
 }
 
