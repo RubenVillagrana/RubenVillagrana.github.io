@@ -14,3 +14,24 @@ p {
 margin-top : 0;
 text-align : justify;
 }
+
+h3 {
+font : italic normal normal 1.4em georgia, sans-serif;
+letter-spacing : 1px;
+margin-bottom : 0;
+color : #e7dfbe;
+}
+a:link {
+font-weight : bold;
+text-decoration : none;
+color : #f9eef7;
+}
+a:visited {
+font-weight : bold;
+text-decoration : none;
+color : #fcfbfe;
+}
+a:hover, a:focus, a:active {
+text-decoration : underline;
+color : #f9f8fc;
+}
