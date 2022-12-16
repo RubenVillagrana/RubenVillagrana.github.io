@@ -1,0 +1,16 @@
+html {
+margin : 0;
+padding : 0;
+}
+body {
+font : 75% georgia, sans-serif;
+
+color : #fbfdfa;
+background : rgba(73, 46, 39, 0.66);
+margin : 0;
+padding : 0;
+}
+p {
+margin-top : 0;
+text-align : justify;
+}
