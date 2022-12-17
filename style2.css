@@ -2,15 +2,15 @@ html {
 	text-align: center;
 }
 body {
-	background: #369 url(bg.gif) repeat-x top;
+	background: rgb(16, 16, 16);
 	margin: 0 auto;
 	padding: 0;
 	color: #fff;
 	font-family: verdana, arial, helvetica, sans-serif;
 	width: 760px;
 	font-size:    x-small;      
-        voice-family: "\"}\"";   
-        voice-family: inherit;   
+         
+       
         font-size:    small;     
 }
 
@@ -18,24 +18,22 @@ div.page-wrapper {
 	float: left;
 	margin: 160px auto 0 auto;
 	padding: 0;
-	background: url(bg_container.gif) repeat-y top center;
-	width: 760px;  	
+	
+	width: 760px; 	
 	text-align: left;
 }
 
 .intro {
 	position: relative;
-	background: #369;
+	background: rgb(121, 153, 51);
 	border: solid 1px #000;
 	margin: 0;
 	padding: 5px;
 	z-index: 1;
-	width: 760px;  
-		voice-family: "\"}\""; 
-		voice-family:inherit;
+	width: 760px;  	
+		
 		width: 748px;	 
 }
-
 header {
 	position: absolute;
 	top: -151px;
@@ -54,7 +52,7 @@ div.summary {
 	clear: both;
 	margin: 0 0 0 5px;
 	padding: 10px 0 0 0 ;
-	width: 169px; 
+	width: 169px;  /* False value for IE4-5.x/Win */
 	height: 169px;
 }
 
@@ -83,17 +81,17 @@ div.summary a {
 div.preamble {
 	margin: 0 0 0 175px;
 	padding: 5px 10px;
-	background: #69c;
+	background: rgb(8, 192, 72);
 	min-height: 200px;
-	width: 555px;
+	width: 555px; 
 	
 	width: 545px;	 
+}
 div.preamble h3 {
 	margin: 0 0 10px 0;
 	padding: 0;
 	height: 26px;
-	background: url(road.gif) no-repeat top left;
-
+	background: white
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -108,9 +106,9 @@ div.preamble p {
 	float: left;
 	margin: 0;
 	padding: 20px 20px 0 66px;
-	background: url(bg_supportingText.gif) no-repeat top left;
-	width: 496px; 
-		
+	
+	width: 496px;  
+	
 		width: 410px;	 
 }
 
@@ -127,18 +125,19 @@ div.preamble p {
 
 div.explanation h3 {
 	margin-top: 0;
-	
+	background: url(what.gif) no-repeat top left;
 }
 
 div.participation h3 {
-	background:
+	background: url(part.gif) no-repeat top left;
+}
 
 div.benefits h3 {
-	background: ;
+	background: url(bene.gif) no-repeat top left;
 }
 
 div.requirements h3 {
-	background: ;
+	background: url(requ.gif) no-repeat top left;
 }
 
 .supporting p {
@@ -154,7 +153,7 @@ div.requirements h3 {
 .sidebar {
 	margin-left: 496px;
 	padding: 20px;
-	background: url(bg_linkList.gif) no-repeat top left;
+	background: rgb(100, 255, 136)
 }
 
 .sidebar h3 {
@@ -182,7 +181,7 @@ div.zen-resources h3 {
 }
 
 .sidebar a {
-	color: #369;
+	color: rgb(172, 212, 252);
 	text-decoration: none;
 	font-size: small;
 	font-weight: normal;
@@ -217,7 +216,7 @@ div.design-selection li a.designer-name {
 
 footer {
 	border-top: solid 4px #eee;
-	background: #69c;
+	background: rgb(251, 251, 252);
 	margin: 20px -22px 0 -22px;
 	padding: 10px 20px;
 	width: 450px;  
